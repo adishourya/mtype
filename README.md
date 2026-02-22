@@ -5,19 +5,6 @@ A minimal terminal-based typing practice tool written in a single file using Rus
 ![mtype screenshot](mtype.png)
 ---
 
-## ✨ Features
-
-- 📝 Practice with plain text or source code
-- ⏱ Configurable timer
-- 🚦 Timer starts on first keystroke
-- ❌ Real-time error tracking
-- 📍 Moving caret showing current typing position
-- 🔄 Reset with `Esc`, quit with `Esc` again
-- 📊 WPM-over-time line chart at the end
-- 🎯 Proper code mode (preserves indentation, no justification)
-- 🖥 Fully TUI-based (no GUI)
-
----
 
 ## 📦 Installation
 ```bash
