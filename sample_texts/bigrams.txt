@@ -1,0 +1,68 @@
+re
+real, reason, react, ready, recall, reduce, relate, remove, report, result, return, reward, replace, respond, review, research, require, restore
+
+er
+never, better, order, power, other, water, after, under, center, letter, enter, proper, server, worker, marker, player
+
+ro / ru / ar
+around, ground, program, project, protect, process, produce, growth, error, correct, current, return, argument, random, forward
+
+in
+inside, index, input, increase, include, invite, initial, install, interest, internal, infinite
+
+en
+enter, energy, engine, enough, enable, enhance, enjoy, ensure, entire, environment
+
+an
+analysis, answer, manage, balance, random, cancel, angle, standard, expand
+
+nt / ng
+content, context, control, present, moment, comment, event, student, strong, string, typing, testing, running, ending
+
+he / th
+there, their, them, then, theory, method, whether, thesis, thermal, thread, three, through, though
+
+st
+start, state, store, stand, still, stage, style, strong, structure, student, system, standard
+
+ta / te / to / tr
+table, taken, target, total, topic, token, texture, technical, test, terminal, trace, track, train, transfer, translate, trust
+
+ch
+change, check, choice, child, machine, teacher, schedule, technical, branch, search
+
+sc
+scale, score, screen, script, scroll, science, schedule, scope
+
+cl
+class, clear, clean, clock, close, client, cluster, calculate
+
+ck
+back, block, check, stack, track, quick, clock, packet
+
+co / ct / uc / cp
+code, control, connect, collect, correct, account, action, section, function, structure, product, conduct, reduce, success
+
+pr
+press, print, project, provide, program, process, protect, prove, improve, practice
+
+pu
+public, publish, pull, push, purpose, purchase, output, input
+
+mp
+simple, example, sample, complete, compare, implement, improve, computer, template
+
+sk
+skill, skip, sketch, mask, task, ask, risk, desktop
+
+is / se / es
+design, session, version, reason, present, simple, exercise, desire, promise
+
+de
+define, delete, decide, describe, develop, depend, degree, detail
+
+id / ir / ic
+middle, idea, identify, direct, circle, critical, script, describe, original
+
+extras
+ represent, interest, present, structure, standard, return, control, process, produce, student, transfer, include, require, section, strong, program, project, different, response, internal
