@@ -118,20 +118,35 @@ fn parse_args() -> Config {
 impl App {
     fn new(config: Config) -> Self {
 
-    let mut sentences: Vec<String> = config
-        .content
-        .split('.')
-        .filter(|s| !s.trim().is_empty())
-        .map(|s| format!("{}.", s.trim()))
-        .collect();
+    // let mut sentences: Vec<String> = config
+    //     .content
+    //     .split('.')
+    //     .filter(|s| !s.trim().is_empty())
+    //     .map(|s| format!("{}.", s.trim()))
+    //     .collect();
 
-    sentences.shuffle(&mut thread_rng());
-    let shuffled_content = sentences.join(" ");
+    // sentences.shuffle(&mut thread_rng());
+    // let shuffled_content = sentences.join(" ");
 
+
+    let processed_content = if config.mode == ContentMode::Text {
+        // Only shuffle if this is the default text (no file used)
+        let mut sentences: Vec<String> = config
+            .content
+            .split('.')
+            .filter(|s| !s.trim().is_empty())
+            .map(|s| format!("{}.", s.trim()))
+            .collect();
+
+        sentences.shuffle(&mut thread_rng());
+        sentences.join(" ")
+    } else {
+        config.content.clone()
+    };
         Self {
             mode: Mode::Typing,
             duration: config.duration,
-            target: shuffled_content.chars().collect(),
+            target: processed_content.chars().collect(),
             input: vec![],
             start_time: None,
             end_time: None,
