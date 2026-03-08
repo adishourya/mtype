@@ -85,7 +85,7 @@ fn parse_args() -> Config {
     }
 
     let mut duration = DEFAULT_DURATION;
-    let mut content = "The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. Sphinx of black quartz, judge my vow. How vexingly quick daft zebras jump! Bright vixens jump; dozy fowl quack. Quick zephyrs blow, vexing daft Jim. Waltz, bad nymph, for quick jigs vex! Jived fox nymph grabs quick waltz. Glib jocks quiz nymph to vex dwarf. The five boxing wizards jump quickly. Jackdaws love my big sphinx of quartz. Quick wafting zephyrs vex bold Jim. Brawny gods just flocked up to quiz and vex him. Crazy Fredrick bought many very exquisite opal jewels. We promptly judged antique ivory buckles for the next prize. Amazingly few discotheques provide jukeboxes. ".repeat(5);
+    let mut content = "The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. Sphinx of black quartz, judge my vow. How vexingly quick daft zebras jump! Bright vixens jump; dozy fowl quack. Quick zephyrs blow, vexing daft Jim. Waltz, bad nymph, for quick jigs vex! Jived fox nymph grabs quick waltz. Glib jocks quiz nymph to vex dwarf. The five boxing wizards jump quickly. Jackdaws love my big sphinx of quartz. Quick wafting zephyrs vex bold Jim. Brawny gods just flocked up to quiz and vex him. Crazy Fredrick bought many very exquisite opal jewels. We promptly judged antique ivory buckles for the next prize. Amazingly few discotheques provide jukeboxes. ".repeat(1);
     let mut mode = ContentMode::Text;
     let mut word_limit: Option<usize> = None;
 
