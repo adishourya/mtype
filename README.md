@@ -21,7 +21,7 @@ I originally built **mtype** to practice touch typing on my **5-column split key
 Ensure you have Rust and Cargo installed, then:
 
 ```bash
-git clone https://github.com/yourusername/mtype.git
+git clone https://github.com/adishourya/mtype.git
 cd mtype
 cargo install --path .
 ```
