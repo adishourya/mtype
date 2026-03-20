@@ -1,56 +1,49 @@
 # mtype
-A minimal terminal-based typing practice tool written in a single file using Rust with
-[Ratatui](https://github.com/ratatui-org/ratatui).
+A minimalist, high-performance terminal typing-practice tool built in Rust with [Ratatui](https://github.com/ratatui-org/ratatui).
 
 ![mtype screenshot](mtype.png)
----
+
+### Why mtype?
+I originally built **mtype** to practice touch typing on my **5-column split keyboard** using a custom layout.
+
+![layout screenshot](layout_visualizer.png)
+
+### Features
+
+  * **Customizable Layout Visualizer:** Define your own rows and columns to match your keyboard hardware.
+  * **Split-Board Support:** Toggle a "split" view to better visualize left and right hand separation.
+  * **Text & Code Modes:** Practice with literature or switch to Code Mode to maintain indentation and programming-specific syntax.
+  * **Persistent Progress:** All runs are saved to a local SQLite database with WPM and Accuracy tracking.
 
 
-## 📦 Installation
+### Installation
+
+Ensure you have Rust and Cargo installed, then:
+
 ```bash
-# clone
-git clone https://github.com/YOUR_USERNAME/mtype.git
+git clone https://github.com/yourusername/mtype.git
 cd mtype
-
-# build
-cargo build --release
-
-# run
-./target/release/mtype
+cargo install --path .
 ```
 
-### Set timer (seconds)
+### Usage
+Run the app with the default Shakespeare text:
+
+```bash
+mtype
+```
+
+Practice with a custom text file or code snippet:
+
+```bash
+mtype -f my_notes.txt      # Text Mode
+mtype -f <(echo foo)       # or simulate a file
+mtype -c my_script.py      # Code Mode (preserves indents)
+```
+
+Set a custom duration (in seconds):
 
 ```bash
 mtype -t 60
 ```
-
-### Load a custom text file
-
-```bash
-# pass a file
-mtype -f sample.txt
-# or simulate a file
-mtype -f < (echo some text here)
-```
-
-### Load a code file (left-aligned, indentation preserved)
-
-```bash
-# for code files
-mtype -c sample.rs
-```
-
-## 🛠 Built With
-
-* Rust 🦀
-* Ratatui
-* Crossterm
-
-
-## 🙌 Acknowledgements
-
-Inspired by:
-* monkeytype.com
-* ratatui examples
 
